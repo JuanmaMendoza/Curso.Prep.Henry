@@ -232,10 +232,10 @@ function continueStatement(numero) {
   // Tu código:
   na = [];
   var j = 1;
-  while(j<10){
+  while(j<11){
     j++;
-    numero = numero + 2;
     if(j === 5) continue;
+    numero = numero + 2;
     na.push(numero);
     } return na;
 }
